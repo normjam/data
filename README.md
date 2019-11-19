@@ -7,6 +7,7 @@ Satija Lab (2019). pbmc3k.SeuratData: 2,700 peripheral blood mononuclear cells (
 
 ## 2. CITE-seq bone marrow, [Seurat](https://figshare.com/s/e816f8a891be5424148c) and [AnnData](https://figshare.com/s/cfbc86f6a399343677ea)  (put description and task here)
 The CITE-seq data from human bone marrow cells were measured cellular transcriptomes alongside 25 cell-surface proteins representing well-characterized markers. 
+In the Seurat object, the protein count matrix is in the `ADT` assay. In the AnnData object, the protein count matrix is concatenate with RNA count matrix and the prefix of protein is `adt`.
 
 [Stuart, T., Butler, A., Hoffman, P., Hafemeister, C., Papalexi, E., Mauck III, W. M., ... & Satija, R. (2019). Comprehensive Integration of Single-Cell Data. Cell.](https://www.cell.com/cell/pdf/S0092-8674(19)30559-8.pdf)
 
